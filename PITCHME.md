@@ -17,7 +17,7 @@
 
 ![Pipenv logo](assets/images/pipenv.png)
 
-Pipenv维护者
+Pipenv 维护者
 @snapend
 
 +++
@@ -25,3 +25,25 @@ Pipenv维护者
 ![Comic image](assets/images/comic.png)
 
 队长别开抢，是我！
+
+---
+
+### 提问
+
+@ul
+- 安装了包为什么提示导入失败？
+- Python 版本升级了原有的依赖包呢？
+@ulend
+
++++
+
+![python_environemnt](assets/images/python_environment_2x.png)
+
++++
+
+### Python 定位包位置的机制
+
+- 到 `sys.prefix` 下面对应的 `Lib` 目录寻找包
+- 所有 executable 均对应一个 Python 解释器
+- `pip` 亦将包安装到 `sys.prefix` 下面（默认配置下）
+- `PYTHONPATH` 增加额外搜索路径
