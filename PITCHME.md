@@ -61,9 +61,9 @@ Pipenv 维护者
 
 ## 几条最佳实践
 @ul
-- ❌ `sudo ln -sf /path/to/my/python /usr/bin/python`
-- ❌ `sudo pip install <package>`
-- ❌ 使用 homebrew 安装的 Python 安装命令行程序
-- ✔ 每个命令行程序使用自己单独的虚拟环境，然后将 executable 软链到 `PATH` 中
-- ✔ `pipx install <package>`
+- @fa[times] `sudo ln -sf /path/to/my/python /usr/bin/python`
+- @fa[times] `sudo pip install <package>`
+- @fa[times] 使用 homebrew 安装的 Python 安装命令行程序
+- @fa[check] 每个命令行程序使用自己单独的虚拟环境，然后将 executable 软链到 `PATH` 中
+- @fa[check] `pipx install <package>`
 @ulend
