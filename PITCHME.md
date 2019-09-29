@@ -4,7 +4,7 @@
 
 ---?color=linear-gradient(90deg, #197CAA 50%, white 50%)
 
-@snap[west span-50 text-white h3-white]
+@snap[west span-50 text-white h2-white]
 ## Who Am I
 
 - @fa[github](frostming)
@@ -61,9 +61,9 @@ Pipenv 维护者
 
 ## 几条最佳实践
 @ul
-- @fa[times] `sudo ln -sf /path/to/my/python /usr/bin/python`
-- @fa[times] `sudo pip install <package>`
-- @fa[times] 使用 homebrew 安装的 Python 安装命令行程序
-- @fa[check] 每个命令行程序使用自己单独的虚拟环境，然后将 executable 软链到 `PATH` 中
-- @fa[check] `pipx install <package>`
+- ❌ `sudo ln -sf /path/to/my/python /usr/bin/python`
+- ❌ `sudo pip install <package>`
+- ❌ 使用 homebrew 安装的 Python 安装命令行程序
+- ✅ 每个命令行程序使用自己单独的虚拟环境，然后将 executable 软链到 `PATH` 中
+- ✅ `pipx install <package>`
 @ulend
