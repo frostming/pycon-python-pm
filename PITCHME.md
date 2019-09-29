@@ -1,11 +1,11 @@
-# Python的包管理及Pipenv
+## Python的包管理及Pipenv
 
 ### @frostming
 
 ---?color=linear-gradient(90deg, #FF8F00 50%, white 50%)
 
-@snap[west span-50 text-white]
-## Who Am I
+@snap[west span-50 text-white h3-white]
+### Who Am I
 
 - @fa[github](frostming)
 - @fa[twitter](frostming90)
@@ -14,8 +14,6 @@
 @snapend
 
 @snap[east span-50]
-
-## Who Am I
 
 ![Pipenv logo](assets/images/pipenv.png)
 
