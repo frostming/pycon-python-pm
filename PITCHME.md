@@ -4,13 +4,14 @@
 
 ---?color=linear-gradient(90deg, #197CAA 50%, white 50%)
 
-@snap[west span-50 text-white h2-white]
-## Who Am I
-
-- @fa[github](frostming)
-- @fa[twitter](frostming90)
-- @fa[qq](Tencent)
+@snap[west span-50 text-white h3-white]
+### Who Am I
+@ul[list-spaced-bullets](false)
+- @fa[github] frostming
+- @fa[twitter] frostming90
+- @fa[qq] Tencent
 - 从 2014 年开始用 Python , 前测试，现开发
+@ulend
 @snapend
 
 @snap[east span-50]
@@ -30,7 +31,7 @@ Pipenv 维护者
 
 ## 你是否遇到过这些问题
 
-@ul
+@ul[list-spaced-bullets]
 - 安装了包却提示导入失败
 - Python 版本升级了，原有的命令行程序全体罢工
 - 升级了某个库的版本，导致别的应用（库）挂了
@@ -53,17 +54,41 @@ Pipenv 维护者
 
 +++
 
-## 使用virtualenv!
+## 使用虚拟环境!
 
 创建新的解释器，将 `path_prefix` 值改写
 
 +++
 
-## 几条最佳实践
+## 最坏实践
 @ul
 - ❌ `sudo ln -sf /path/to/my/python /usr/bin/python`
 - ❌ `sudo pip install <package>`
 - ❌ 使用 homebrew 安装的 Python 安装命令行程序
+@ulend
+
++++
+## 最佳实践
+@ul
 - ✅ 每个命令行程序使用自己单独的虚拟环境，然后将 executable 软链到 `PATH` 中
+- ✅ 尽量使用 Python 3 自带的 `venv` 模块
 - ✅ `pipx install <package>`
 @ulend
+
+---?color=linear-gradient(90deg, #197CAA 50%, white 50%)
+@snap[west span-50 text-white h3-white]
+### I have...
+@ul
+- `virtualenv`
+- `virtualenvwrapper`
+- `pew`
+- `pyenv-venv`
+- `conda`
+- `direnv`
+- ...
+@ulend
+@snapend
+
+@snap[east fragment]
+### 依赖管理@css[text-bold text-14 text-blue](?)
+@snapend
