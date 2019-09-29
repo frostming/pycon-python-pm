@@ -2,7 +2,7 @@
 
 ### @frostming
 
----?color=linear-gradient(90deg, #FF8F00 50%, white 50%)
+---?color=linear-gradient(90deg, #197CAA 50%, white 50%)
 
 @snap[west span-50 text-white h3-white]
 ### Who Am I
@@ -10,7 +10,7 @@
 - @fa[github](frostming)
 - @fa[twitter](frostming90)
 - @fa[qq](Tencent)
-- 从2014年开始用Python, 前测试，现开发
+- 从 2014 年开始用 Python , 前测试，现开发
 @snapend
 
 @snap[east span-50]
