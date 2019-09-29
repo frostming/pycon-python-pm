@@ -12,3 +12,5 @@ theme-margins    : [ "0", "15px" ]
 layout: center
 
 highlight: tomorrow
+
+logo: assets/images/pycon.png
