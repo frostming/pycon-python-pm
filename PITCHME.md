@@ -8,7 +8,7 @@
 
 @snap[west span-50]
 ## Who Am I
-@ul(false)
+@ul[list-spaced-bullets](false)
 - @fa[qq] Tencent
 - 开源爱好者
 - 从 2014 年开始用 Python , 前测试，现开发
@@ -56,6 +56,10 @@
 +++
 
 ## 使用虚拟环境!
+
+@box[bg-green text-white box-padding](Base Interpreter#/usr/local/bin/python3.7)
+@fa[arrow-down]
+@box[bg-blue text-white box-padding](Virtualenv#.venv/bin/python)
 
 创建新的解释器，将 `path_prefix` 值改写
 
