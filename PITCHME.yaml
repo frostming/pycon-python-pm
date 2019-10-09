@@ -1,17 +1,8 @@
 theme            : template
-
-theme-headline   : [ "Montserrat", "#000000", "none" ]
-theme-byline     : [ "Montserrat", "#000000", "none" ]
-theme-text       : [ "Roboto", "#000000", "none" ]
-theme-links      : [ "#197CAA", "#000000" ]
-theme-code       : [ "Source Code Pro" ]
-theme-controls   : [ "#484848" ]
-theme-margins    : [ "0", "15px" ]
+theme-override : assets/css/PITCHME.css
 
 layout: center
 
 highlight: tomorrow
 
 logo: assets/images/pycon.png
-
-theme-override : assets/css/style.css
