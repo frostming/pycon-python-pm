@@ -56,19 +56,20 @@
 +++
 
 ## 使用虚拟环境!
-
+@snap[midpoint span-50]
 @box[bg-green text-white box-padding](Base Interpreter#/usr/local/bin/python3.7)
 @fa[arrow-down]
 @box[bg-blue text-white box-padding](Virtualenv#.venv/bin/python)
+@snapend
 
-创建新的解释器，将 `path_prefix` 值改写
+创建新的解释器，将 `path_prefix` 值改变
 
 +++
 
 ## 最坏实践
 @ul[list-spaced-bullets]
-- ❌ `sudo ln -sf /path/to/my/python /usr/bin/python`
 - ❌ `sudo pip install <package>`
+- ❌ `sudo ln -sf /path/to/my/python /usr/bin/python`
 - ❌ 使用 homebrew 安装的 Python 安装命令行程序
 @ulend
 
@@ -97,3 +98,29 @@
 @snap[east fragment]
 ### 依赖管理@css[text-bold text-14 text-blue](?)
 @snapend
+
+---
+## 我们为什么需要依赖管理
+@snap[north]
+@ul[list-spaced-bullets]
+- 「复制」开发环境到生产环境
+- 跟踪、追溯依赖版本变更
+- 确定合适的依赖版本以防止冲突
+@ulend
+@snapend
+
+@snap[south-west span-50]
+### 开发环境
+
+* 需要频繁安装、删除依赖包
+* 依赖版本一般用当前最新
+@snapend
+
+@snap[south-east span-50]
+### 生产环境
+
+* 依赖版本锁定
+* 需要同伴开发环境依赖改变
+@snapend
++++
+## 我用 requirements.txt
