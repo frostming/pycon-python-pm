@@ -1,10 +1,12 @@
+---?image=assets/images/title_bg.png
+
 ## Python的包管理及Pipenv
 
 ### @frostming
 
----?color=linear-gradient(90deg, #197CAA 50%, white 50%)
+---
 
-@snap[west span-50 text-white h3-white]
+@snap[west span-50]
 ### Who Am I
 @ul[list-spaced-bullets](false)
 - @fa[github] frostming
@@ -75,8 +77,8 @@ Pipenv 维护者
 - ✅ `pipx install <package>`
 @ulend
 
----?color=linear-gradient(90deg, #197CAA 50%, white 50%)
-@snap[west span-50 text-white h3-white]
+---
+@snap[west span-50]
 ### I have...
 @ul
 - `virtualenv`

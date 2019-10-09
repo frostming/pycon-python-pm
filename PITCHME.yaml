@@ -1,10 +1,9 @@
 theme            : template
 
-theme-background : [ "#FFF" ]
-theme-headline   : [ "Montserrat", "#197CAA", "none" ]
-theme-byline     : [ "Montserrat", "#111111", "none" ]
-theme-text       : [ "Roboto", "#1C1C1C", "none" ]
-theme-links      : [ "#197CAA", "#5254F7" ]
+theme-headline   : [ "Montserrat", "#000000", "none" ]
+theme-byline     : [ "Montserrat", "#000000", "none" ]
+theme-text       : [ "Roboto", "#000000", "none" ]
+theme-links      : [ "#197CAA", "#000000" ]
 theme-code       : [ "Source Code Pro" ]
 theme-controls   : [ "#484848" ]
 theme-margins    : [ "0", "15px" ]
@@ -14,3 +13,5 @@ layout: center
 highlight: tomorrow
 
 logo: assets/images/pycon.png
+
+theme-override : assets/css/style.css
