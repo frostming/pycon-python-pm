@@ -131,24 +131,24 @@
 @ulend
 
 +++
-@snap[north]
+@snap[north span-100]
 #### requirements.txt 能解决问题吗？
 @snapend
 @snap[west span-50]
 
-### 抽象依赖
+抽象依赖
 
 ```
 Flask
 requests
 ```
 
-开发环境使用，无需关注具体版本及次级依赖，安装最新版即可
+@size[0.55em](开发环境使用，无需关注具体版本及次级依赖，安装最新版即可)
 
 @snapend
 
 @snap[east span-50]
-### 具体依赖
+具体依赖
 
 ```
 Flask==1.0.2
@@ -164,10 +164,11 @@ chardet==3.0.4
 urllib3==1.25.6
 ```
 
-生产环境使用，锚定依赖版本，减少版本不匹配带来的额外风险
+@size[0.55em](生产环境使用，锚定依赖版本，减少版本不匹配带来的额外风险)
+
 @snapend
 
-@snap[south]
+@snap[south text-15]
 
 ```bash
 $ pip freeze > requirements.txt
