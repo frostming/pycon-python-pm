@@ -1,12 +1,9 @@
-.reveal {
-  font-size: 15pt;
-}
-
 .reveal h2 {
-  font-size: 36pt;
+  font-size: 2em;
   font-weight: bold;
   color: black;
 }
+
 .reveal h3 {
-  font-size: 24pt;
+  font-size: 1.44em;
 }

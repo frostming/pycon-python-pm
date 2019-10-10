@@ -123,21 +123,17 @@
 
 ## 我们为什么需要依赖管理
 
-@snap[north]
 @ul[list-spaced-bullets]
 
 - 「复制」开发环境到生产环境
 - 跟踪、追溯依赖版本变更
 - 确定合适的依赖版本以防止冲突
 @ulend
-@snapend
-
-@snap[west span-50]
 
 +++
-
+@snap[north]
 ## requirements.txt 能解决问题吗？
-
+@snapend
 @snap[west span-50]
 
 ### 抽象依赖
@@ -147,7 +143,7 @@ Flask
 requests
 ```
 
-> 开发环境使用，无需关注具体版本及次级依赖，安装最新版即可
+开发环境使用，无需关注具体版本及次级依赖，安装最新版即可
 
 @snapend
 
@@ -168,7 +164,7 @@ chardet==3.0.4
 urllib3==1.25.6
 ```
 
-> 生产环境使用，锚定依赖版本，减少版本不匹配带来的额外风险
+生产环境使用，锚定依赖版本，减少版本不匹配带来的额外风险
 @snapend
 
 @snap[south]
