@@ -63,15 +63,15 @@
 
 +++
 
+@snap[midpoint span-50]
 ## 使用虚拟环境!
 
-@snap[midpoint span-50]
 @box[bg-green text-white box-padding](Base Interpreter#/usr/local/bin/python3.7)
 @fa[arrow-down]
 @box[bg-blue text-white box-padding](Virtualenv#.venv/bin/python)
+创建新的解释器，将 `path_prefix` 值改变
 @snapend
 
-创建新的解释器，将 `path_prefix` 值改变
 
 +++
 
@@ -132,7 +132,7 @@
 
 +++
 @snap[north]
-## requirements.txt 能解决问题吗？
+#### requirements.txt 能解决问题吗？
 @snapend
 @snap[west span-50]
 
