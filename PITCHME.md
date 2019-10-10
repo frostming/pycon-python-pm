@@ -143,11 +143,9 @@ Flask
 requests
 ```
 
-@size[0.55em](开发环境使用，无需关注具体版本及次级依赖，安装最新版即可)
-
 @snapend
 
-@snap[east span-50]
+@snap[east span-50 text-left]
 具体依赖
 
 ```
@@ -164,14 +162,36 @@ chardet==3.0.4
 urllib3==1.25.6
 ```
 
-@size[0.55em](生产环境使用，锚定依赖版本，减少版本不匹配带来的额外风险)
-
 @snapend
 
-@snap[south text-15]
+@snap[south text-15 span-100]
 
 ```bash
 $ pip freeze > requirements.txt
+$ pip install -r requirements.txt
 ```
 
+@snapend
+
++++
+
+@snap[north span-100]
+### 依赖冲突
+@snapend
+@snap[west span-50]
+```
+django-celery
+celery
+```
+@snapend
+@snap[east span-50 text-07]
+`django-celery` @fa[arrow-right] `celery<4.0,>=3.1.15`
+?
+@snapend
+
+@snap[south text-13]
+```
+django-celery 3.3.1 has requirement celery<4.0,>=3.1.15,
+but you'll have celery 4.3.0 which is incompatible.
+```
 @snapend
