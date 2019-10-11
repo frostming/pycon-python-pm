@@ -179,19 +179,20 @@ $ pip install -r requirements.txt
 ### 依赖冲突
 @snapend
 @snap[west span-50]
+
+```bash
+$ pip install django-celery
+$ pip install celery
 ```
-django-celery
-celery
+
+```bash
+$ pip install celery
+$ pip install django-celery
 ```
+
+结果有什么不一样？
+
 @snapend
 @snap[east span-50 text-07]
 `django-celery` @fa[arrow-right] `celery<4.0,>=3.1.15`
-?
-@snapend
-
-@snap[south text-13]
-```
-django-celery 3.3.1 has requirement celery<4.0,>=3.1.15,
-but you'll have celery 4.3.0 which is incompatible.
-```
 @snapend
